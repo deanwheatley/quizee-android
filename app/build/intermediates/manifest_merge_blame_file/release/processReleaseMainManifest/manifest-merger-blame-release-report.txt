@@ -23,16 +23,16 @@
 23-->
 24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 25    package="com.amplifyapp.d1608aesdqhszw.main.twa"
-26    android:versionCode="1"
-27    android:versionName="1" >
+26    android:versionCode="3"
+27    android:versionName="3" >
 28
 29    <uses-sdk
 30        android:minSdkVersion="21"
 31        android:targetSdkVersion="35" />
 32
 33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-33-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:26:9-80
-33-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:26:26-78
+33-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:25:9-80
+33-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:25:26-78
 34
 35    <queries>
 35-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5053e02be90783e54992393be394bb70\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:22:5-30:15
@@ -87,415 +87,417 @@
 60-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:22-64
 61
 62    <application
-62-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:35:5-215:19
+62-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:34:5-215:19
 63        android:name="com.amplifyapp.d1608aesdqhszw.main.twa.Application"
-63-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:36:9-35
+63-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:35:9-35
 64        android:allowBackup="true"
-64-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:37:9-35
+64-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:36:9-35
 65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 65-->[androidx.core:core:1.13.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 66        android:extractNativeLibs="true"
 67        android:icon="@mipmap/ic_launcher"
-67-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:38:9-43
+67-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:37:9-43
 68        android:label="@string/appName"
 68-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:39:9-40
 69        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
 69-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:41:9-105
-70        android:supportsRtl="true"
-70-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:43:9-35
-71        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-71-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:44:9-68
-72        <meta-data
-72-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:46:9-48:58
-73            android:name="asset_statements"
-73-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:47:13-44
-74            android:resource="@string/assetStatements" />
-74-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:48:13-55
-75        <meta-data
-75-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:51:13-53:58
-76            android:name="web_manifest_url"
-76-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:52:17-48
-77            android:value="@string/webManifestUrl" />
-77-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:53:17-55
-78        <meta-data
-78-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:56:9-58:52
-79            android:name="twa_generator"
-79-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:57:13-41
-80            android:value="@string/generatorApp" />
-80-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:58:13-49
-81
-82        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
-82-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:65:13-69:24
-82-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:65:23-104
-83            <meta-data
-83-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:66:13-68:53
-84                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
-84-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:67:17-83
-85                android:value="@string/launchUrl" />
-85-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:68:17-50
-86        </activity>
-87        <activity
-87-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:72:9-151:20
-88            android:name="com.amplifyapp.d1608aesdqhszw.main.twa.LauncherActivity"
-88-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:72:19-50
-89            android:alwaysRetainTaskState="true"
-89-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:73:13-49
-90            android:exported="true"
-90-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:75:13-36
-91            android:label="@string/launcherName" >
-91-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:74:13-49
-92            <meta-data
-92-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:76:13-77:53
-93                android:name="android.support.customtabs.trusted.DEFAULT_URL"
-93-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:76:24-85
-94                android:value="@string/launchUrl" />
-94-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:77:17-50
-95            <meta-data
-95-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:79:13-81:58
-96                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-96-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:80:17-83
-97                android:resource="@color/colorPrimary" />
-97-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:81:17-55
-98            <meta-data
-98-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:85:13-87:62
-99                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
-99-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:86:17-88
-100                android:resource="@color/colorPrimaryDark" />
-100-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:87:17-59
-101            <meta-data
-101-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:89:13-91:61
-102                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-102-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:90:17-87
-103                android:resource="@color/navigationColor" />
-103-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:91:17-58
-104            <meta-data
-104-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:93:13-95:65
-105                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
-105-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:94:17-92
-106                android:resource="@color/navigationColorDark" />
-106-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:95:17-62
-107            <meta-data
-107-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:97:13-99:68
-108                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
-108-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:98:17-84
-109                android:resource="@color/navigationDividerColor" />
-109-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:99:17-65
-110            <meta-data
-110-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:101:13-103:72
-111                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
-111-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:102:17-89
-112                android:resource="@color/navigationDividerColorDark" />
-112-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:103:17-69
-113            <meta-data
-113-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:105:13-106:54
-114                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-114-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:105:24-95
-115                android:resource="@drawable/splash" />
-115-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:106:17-52
-116            <meta-data
-116-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:108:13-109:60
-117                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-117-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:108:24-104
-118                android:resource="@color/backgroundColor" />
-118-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:109:17-58
-119            <meta-data
-119-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:111:13-112:71
-120                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
-120-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:111:24-105
-121                android:value="@integer/splashScreenFadeOutDuration" />
-121-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:112:17-69
-122            <meta-data
-122-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:114:13-115:60
-123                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
-123-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:114:24-97
-124                android:value="@string/providerAuthority" />
-124-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:115:17-58
-125            <meta-data
-125-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:117:13-97
-126                android:name="android.app.shortcuts"
-126-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:117:24-60
-127                android:resource="@xml/shortcuts" />
-127-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:117:61-94
-128            <meta-data
-128-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:119:13-120:56
-129                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
-129-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:119:24-91
-130                android:value="@string/fallbackType" />
-130-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:120:17-53
-131            <meta-data
-131-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:126:13-127:54
-132                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
-132-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:126:24-92
-133                android:value="@string/orientation" />
-133-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:127:17-52
-134
-135            <intent-filter>
-135-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:133:13-136:29
-136                <action android:name="android.intent.action.MAIN" />
-136-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:134:17-69
-136-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:134:25-66
-137
-138                <category android:name="android.intent.category.LAUNCHER" />
-138-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:135:17-77
-138-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:135:27-74
-139            </intent-filter>
-140            <intent-filter android:autoVerify="true" >
-140-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:138:13-146:29
-140-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:138:28-53
-141                <action android:name="android.intent.action.VIEW" />
-141-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:139:17-68
-141-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:139:25-66
-142
-143                <category android:name="android.intent.category.DEFAULT" />
-143-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:17-76
-143-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:27-73
-144                <category android:name="android.intent.category.BROWSABLE" />
-144-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:141:17-77
-144-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:141:27-75
-145
-146                <data
-146-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:142:17-145:19
-147                    android:host="@string/hostName"
-147-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:143:21-52
-148                    android:scheme="https" />
-148-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:142:23-45
-149            </intent-filter>
-150        </activity>
-151        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-151-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:153:9-90
-151-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:153:19-87
-152        <activity
-152-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:155:9-156:62
-153            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
-153-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:155:19-97
-154            android:configChanges="orientation|screenSize" />
-154-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:156:13-59
-155
-156        <provider
-156-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:158:9-166:20
-157            android:name="androidx.core.content.FileProvider"
-157-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:159:13-62
-158            android:authorities="@string/providerAuthority"
-158-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:160:13-60
-159            android:exported="false"
-159-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:162:13-37
-160            android:grantUriPermissions="true" >
-160-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:161:13-47
-161            <meta-data
-161-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:163:13-165:53
-162                android:name="android.support.FILE_PROVIDER_PATHS"
-162-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:164:17-67
-163                android:resource="@xml/filepaths" />
-163-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:165:17-50
-164        </provider>
-165
-166        <service
-166-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:168:9-183:19
-167            android:name="com.amplifyapp.d1608aesdqhszw.main.twa.DelegationService"
-167-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:169:13-46
-168            android:enabled="@bool/enableNotification"
-168-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:170:13-55
-169            android:exported="@bool/enableNotification" >
-169-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:171:13-56
-170            <meta-data
-170-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:174:17-176:73
-171                android:name="android.support.customtabs.trusted.SMALL_ICON"
-171-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:175:21-81
-172                android:resource="@drawable/ic_notification_icon" />
-172-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:176:21-70
-173
-174            <intent-filter>
-174-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:179:13-182:29
-175                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
-175-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:180:17-105
-175-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:180:25-103
-176
-177                <category android:name="android.intent.category.DEFAULT" />
-177-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:17-76
-177-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:27-73
-178            </intent-filter>
-179        </service>
-180
-181        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-181-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:186:13-118
-181-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:186:23-115
-182        <activity
-182-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:191:9-204:20
-183            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentActivity"
-183-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:192:13-96
-184            android:configChanges="keyboardHidden|keyboard|orientation|screenLayout|screenSize"
-184-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:194:13-96
-185            android:exported="true"
-185-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:195:13-36
-186            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-186-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:193:13-72
-187            <intent-filter>
-187-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:197:13-199:29
-188                <action android:name="org.chromium.intent.action.PAY" />
-188-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:198:17-73
-188-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:198:25-70
-189            </intent-filter>
-190
-191            <meta-data
-191-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:201:13-203:67
-192                android:name="org.chromium.default_payment_method_name"
-192-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:202:17-72
-193                android:value="https://play.google.com/billing" />
-193-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:203:17-64
-194        </activity>
-195
-196        <!-- This service checks who calls it at runtime. -->
-197        <service
-197-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:207:9-213:19
-198            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentService"
-198-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:208:13-95
-199            android:exported="true" >
-199-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:209:13-36
-200            <intent-filter>
-200-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:210:13-212:29
-201                <action android:name="org.chromium.intent.action.IS_READY_TO_PAY" />
-201-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:211:17-85
-201-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:211:25-82
-202            </intent-filter>
-203        </service>
-204
-205        <meta-data
-205-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:22:9-24:37
-206            android:name="com.google.android.play.billingclient.version"
-206-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:23:13-73
-207            android:value="7.1.1" />
-207-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:24:13-34
-208
-209        <activity
-209-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:26:9-30:75
-210            android:name="com.android.billingclient.api.ProxyBillingActivity"
-210-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:27:13-78
-211            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-211-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:28:13-96
-212            android:exported="false"
-212-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:29:13-37
-213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-213-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:30:13-72
-214        <activity
-214-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:31:9-35:75
-215            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
-215-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:32:13-80
-216            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-216-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:33:13-96
-217            android:exported="false"
-217-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:34:13-37
-218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-218-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:35:13-72
-219        <activity
-219-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-220            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-220-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-221            android:exported="false"
-221-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-222-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-223
-224        <meta-data
-224-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\af1250092db6525f6762c9b32f91bede\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-225            android:name="com.google.android.gms.version"
-225-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\af1250092db6525f6762c9b32f91bede\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-226            android:value="@integer/google_play_services_version" />
-226-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\af1250092db6525f6762c9b32f91bede\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-227
-228        <provider
-228-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-229            android:name="androidx.startup.InitializationProvider"
-229-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-230            android:authorities="com.amplifyapp.d1608aesdqhszw.main.twa.androidx-startup"
-230-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-231            android:exported="false" >
-231-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-232            <meta-data
-232-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-233                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-233-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-234                android:value="androidx.startup" />
-234-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-235            <meta-data
-235-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\4bc52031417e9743197e36b704fe409f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-236                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-236-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\4bc52031417e9743197e36b704fe409f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-237                android:value="androidx.startup" />
-237-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\4bc52031417e9743197e36b704fe409f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-238            <meta-data
-238-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-239                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-240                android:value="androidx.startup" />
-240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-241        </provider>
-242
-243        <service
-243-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-244            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-244-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-245            android:exported="false" >
-245-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-246            <meta-data
-246-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-247                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-247-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-248                android:value="cct" />
-248-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-249        </service>
-250        <service
-250-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-251            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-251-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-252            android:exported="false"
-252-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-253            android:permission="android.permission.BIND_JOB_SERVICE" >
-253-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-254        </service>
-255
-256        <receiver
-256-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-257            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-257-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-258            android:exported="false" />
-258-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-259        <receiver
-259-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-260            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-260-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-261            android:directBootAware="false"
-261-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-262            android:enabled="true"
-262-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-263            android:exported="true"
-263-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-264            android:permission="android.permission.DUMP" >
-264-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-265            <intent-filter>
-265-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-266                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-266-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-266-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-267            </intent-filter>
-268            <intent-filter>
-268-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-269                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-270            </intent-filter>
-271            <intent-filter>
-271-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-272                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-272-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-272-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-273            </intent-filter>
-274            <intent-filter>
-274-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-275                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-275-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-275-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-276            </intent-filter>
-277        </receiver>
-278    </application>
-279
-280</manifest>
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:38:9-54
+71        android:supportsRtl="true"
+71-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:43:9-35
+72        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+72-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:44:9-68
+73        <meta-data
+73-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:46:9-48:58
+74            android:name="asset_statements"
+74-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:47:13-44
+75            android:resource="@string/assetStatements" />
+75-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:48:13-55
+76        <meta-data
+76-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:51:13-53:58
+77            android:name="web_manifest_url"
+77-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:52:17-48
+78            android:value="@string/webManifestUrl" />
+78-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:53:17-55
+79        <meta-data
+79-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:56:9-58:52
+80            android:name="twa_generator"
+80-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:57:13-41
+81            android:value="@string/generatorApp" />
+81-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:58:13-49
+82
+83        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+83-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:65:13-69:24
+83-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:65:23-104
+84            <meta-data
+84-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:66:13-68:53
+85                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+85-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:67:17-83
+86                android:value="@string/launchUrl" />
+86-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:68:17-50
+87        </activity>
+88        <activity
+88-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:72:9-151:20
+89            android:name="com.amplifyapp.d1608aesdqhszw.main.twa.LauncherActivity"
+89-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:72:19-50
+90            android:alwaysRetainTaskState="true"
+90-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:73:13-49
+91            android:exported="true"
+91-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:75:13-36
+92            android:label="@string/launcherName" >
+92-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:74:13-49
+93            <meta-data
+93-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:76:13-77:53
+94                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+94-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:76:24-85
+95                android:value="@string/launchUrl" />
+95-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:77:17-50
+96            <meta-data
+96-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:79:13-81:58
+97                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+97-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:80:17-83
+98                android:resource="@color/colorPrimary" />
+98-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:81:17-55
+99            <meta-data
+99-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:85:13-87:62
+100                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+100-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:86:17-88
+101                android:resource="@color/colorPrimaryDark" />
+101-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:87:17-59
+102            <meta-data
+102-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:89:13-91:61
+103                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+103-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:90:17-87
+104                android:resource="@color/navigationColor" />
+104-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:91:17-58
+105            <meta-data
+105-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:93:13-95:65
+106                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+106-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:94:17-92
+107                android:resource="@color/navigationColorDark" />
+107-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:95:17-62
+108            <meta-data
+108-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:97:13-99:68
+109                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+109-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:98:17-84
+110                android:resource="@color/navigationDividerColor" />
+110-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:99:17-65
+111            <meta-data
+111-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:101:13-103:72
+112                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+112-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:102:17-89
+113                android:resource="@color/navigationDividerColorDark" />
+113-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:103:17-69
+114            <meta-data
+114-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:105:13-106:54
+115                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+115-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:105:24-95
+116                android:resource="@drawable/splash" />
+116-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:106:17-52
+117            <meta-data
+117-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:108:13-109:60
+118                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+118-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:108:24-104
+119                android:resource="@color/backgroundColor" />
+119-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:109:17-58
+120            <meta-data
+120-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:111:13-112:71
+121                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+121-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:111:24-105
+122                android:value="@integer/splashScreenFadeOutDuration" />
+122-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:112:17-69
+123            <meta-data
+123-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:114:13-115:60
+124                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+124-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:114:24-97
+125                android:value="@string/providerAuthority" />
+125-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:115:17-58
+126            <meta-data
+126-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:117:13-97
+127                android:name="android.app.shortcuts"
+127-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:117:24-60
+128                android:resource="@xml/shortcuts" />
+128-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:117:61-94
+129            <meta-data
+129-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:119:13-120:56
+130                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+130-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:119:24-91
+131                android:value="@string/fallbackType" />
+131-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:120:17-53
+132            <meta-data
+132-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:126:13-127:54
+133                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+133-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:126:24-92
+134                android:value="@string/orientation" />
+134-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:127:17-52
+135
+136            <intent-filter>
+136-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:133:13-136:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:134:17-69
+137-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:134:25-66
+138
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:135:17-77
+139-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:135:27-74
+140            </intent-filter>
+141            <intent-filter android:autoVerify="true" >
+141-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:138:13-146:29
+141-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:138:28-53
+142                <action android:name="android.intent.action.VIEW" />
+142-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:139:17-68
+142-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:139:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:17-76
+144-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:141:17-77
+145-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:141:27-75
+146
+147                <data
+147-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:142:17-145:19
+148                    android:host="@string/hostName"
+148-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:143:21-52
+149                    android:scheme="https" />
+149-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:142:23-45
+150            </intent-filter>
+151        </activity>
+152        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+152-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:153:9-90
+152-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:153:19-87
+153        <activity
+153-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:155:9-156:62
+154            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+154-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:155:19-97
+155            android:configChanges="orientation|screenSize" />
+155-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:156:13-59
+156
+157        <provider
+157-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:158:9-166:20
+158            android:name="androidx.core.content.FileProvider"
+158-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:159:13-62
+159            android:authorities="@string/providerAuthority"
+159-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:160:13-60
+160            android:exported="false"
+160-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:162:13-37
+161            android:grantUriPermissions="true" >
+161-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:161:13-47
+162            <meta-data
+162-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:163:13-165:53
+163                android:name="android.support.FILE_PROVIDER_PATHS"
+163-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:164:17-67
+164                android:resource="@xml/filepaths" />
+164-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:165:17-50
+165        </provider>
+166
+167        <service
+167-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:168:9-183:19
+168            android:name="com.amplifyapp.d1608aesdqhszw.main.twa.DelegationService"
+168-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:169:13-46
+169            android:enabled="@bool/enableNotification"
+169-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:170:13-55
+170            android:exported="@bool/enableNotification" >
+170-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:171:13-56
+171            <meta-data
+171-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:174:17-176:73
+172                android:name="android.support.customtabs.trusted.SMALL_ICON"
+172-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:175:21-81
+173                android:resource="@drawable/ic_notification_icon" />
+173-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:176:21-70
+174
+175            <intent-filter>
+175-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:179:13-182:29
+176                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+176-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:180:17-105
+176-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:180:25-103
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:17-76
+178-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:140:27-73
+179            </intent-filter>
+180        </service>
+181
+182        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+182-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:186:13-118
+182-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:186:23-115
+183        <activity
+183-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:191:9-204:20
+184            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentActivity"
+184-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:192:13-96
+185            android:configChanges="keyboardHidden|keyboard|orientation|screenLayout|screenSize"
+185-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:194:13-96
+186            android:exported="true"
+186-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:195:13-36
+187            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+187-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:193:13-72
+188            <intent-filter>
+188-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:197:13-199:29
+189                <action android:name="org.chromium.intent.action.PAY" />
+189-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:198:17-73
+189-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:198:25-70
+190            </intent-filter>
+191
+192            <meta-data
+192-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:201:13-203:67
+193                android:name="org.chromium.default_payment_method_name"
+193-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:202:17-72
+194                android:value="https://play.google.com/billing" />
+194-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:203:17-64
+195        </activity>
+196
+197        <!-- This service checks who calls it at runtime. -->
+198        <service
+198-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:207:9-213:19
+199            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentService"
+199-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:208:13-95
+200            android:exported="true" >
+200-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:209:13-36
+201            <intent-filter>
+201-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:210:13-212:29
+202                <action android:name="org.chromium.intent.action.IS_READY_TO_PAY" />
+202-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:211:17-85
+202-->C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:211:25-82
+203            </intent-filter>
+204        </service>
+205
+206        <meta-data
+206-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:22:9-24:37
+207            android:name="com.google.android.play.billingclient.version"
+207-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:23:13-73
+208            android:value="7.1.1" />
+208-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:24:13-34
+209
+210        <activity
+210-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:26:9-30:75
+211            android:name="com.android.billingclient.api.ProxyBillingActivity"
+211-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:27:13-78
+212            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+212-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:28:13-96
+213            android:exported="false"
+213-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:29:13-37
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:30:13-72
+215        <activity
+215-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:31:9-35:75
+216            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+216-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:32:13-80
+217            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+217-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:33:13-96
+218            android:exported="false"
+218-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:34:13-37
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:35:13-72
+220        <activity
+220-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+221            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+221-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+223-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\57bacb9ef58048c0e6f8321d8067096b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+224
+225        <meta-data
+225-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\af1250092db6525f6762c9b32f91bede\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+226            android:name="com.google.android.gms.version"
+226-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\af1250092db6525f6762c9b32f91bede\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+227            android:value="@integer/google_play_services_version" />
+227-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\af1250092db6525f6762c9b32f91bede\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+228
+229        <provider
+229-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+230            android:name="androidx.startup.InitializationProvider"
+230-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+231            android:authorities="com.amplifyapp.d1608aesdqhszw.main.twa.androidx-startup"
+231-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+232            android:exported="false" >
+232-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+233            <meta-data
+233-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+234                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+234-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+235                android:value="androidx.startup" />
+235-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\5cb7738f5242d8c4e38c8ffa2b265b31\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+236            <meta-data
+236-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\4bc52031417e9743197e36b704fe409f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+237                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+237-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\4bc52031417e9743197e36b704fe409f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+238                android:value="androidx.startup" />
+238-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\4bc52031417e9743197e36b704fe409f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+239            <meta-data
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+240                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+241                android:value="androidx.startup" />
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+242        </provider>
+243
+244        <service
+244-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+245            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+245-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+246            android:exported="false" >
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+247            <meta-data
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+248                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+248-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+249                android:value="cct" />
+249-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\85bc3f8cc97bd85b10d760e1ca7886a3\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+250        </service>
+251        <service
+251-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+252            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+252-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+253            android:exported="false"
+253-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+254            android:permission="android.permission.BIND_JOB_SERVICE" >
+254-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+255        </service>
+256
+257        <receiver
+257-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+258            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+258-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+259            android:exported="false" />
+259-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\390580f802b798735a90189ae7e85163\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+260        <receiver
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+261            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+262            android:directBootAware="false"
+262-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+263            android:enabled="true"
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+264            android:exported="true"
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+265            android:permission="android.permission.DUMP" >
+265-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+266            <intent-filter>
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+267                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+268            </intent-filter>
+269            <intent-filter>
+269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+270                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+271            </intent-filter>
+272            <intent-filter>
+272-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+273                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+273-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+273-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+274            </intent-filter>
+275            <intent-filter>
+275-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+276                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+276-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+276-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\bb4a0d32d1b17a1dcea0cf71d2bde5e0\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+277            </intent-filter>
+278        </receiver>
+279    </application>
+280
+281</manifest>

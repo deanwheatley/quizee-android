@@ -53,12 +53,23 @@ def twaManifest = [
 android {
     compileSdkVersion 36
     namespace "com.amplifyapp.d1608aesdqhszw.main.twa"
+    signingConfigs {
+        // Release signing config uses metadata from gradle.properties (non-sensitive) and runtime-provided passwords.
+        release {
+            def keystorePath = project.findProperty('KEYSTORE_PATH') ?: '../android.keystore'
+            def aliasName = project.findProperty('KEY_ALIAS') ?: 'android'
+            storeFile file(keystorePath)
+            storePassword project.findProperty('KEYSTORE_PASSWORD') ?: System.getenv('KEYSTORE_PASSWORD') ?: "__MISSING__"
+            keyAlias aliasName
+            keyPassword project.findProperty('KEY_PASSWORD') ?: System.getenv('KEY_PASSWORD') ?: storePassword
+        }
+    }
     defaultConfig {
         applicationId "com.amplifyapp.d1608aesdqhszw.main.twa"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 1
-        versionName "1"
+    versionCode 3
+    versionName "3"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
@@ -153,6 +164,8 @@ android {
     buildTypes {
         release {
             minifyEnabled true
+            // Ensure we actually sign the release build when passwords provided.
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {

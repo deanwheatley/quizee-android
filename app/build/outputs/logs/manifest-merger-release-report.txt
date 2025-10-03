@@ -47,7 +47,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\De
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\09558f1b9b56a339611f1f3ff5685123\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\7880efad619dc72d569f5e6e2c17444b\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:23:5-53
 		INJECTED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml
@@ -56,12 +55,12 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Dean Wh
 	xmlns:android
 		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:22:11-69
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:26:9-80
+ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:25:9-80
 	android:name
-		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:26:26-78
+		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:25:26-78
 application
-ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:35:5-215:19
-INJECTED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:35:5-215:19
+ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:34:5-215:19
+INJECTED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:34:5-215:19
 MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:21:5-36:19
 MERGED from [com.android.billingclient:billing:7.1.1] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\1dcabcea90c9508775a51aeea5d7fca7\transformed\billing-7.1.1\AndroidManifest.xml:21:5-36:19
 MERGED from [com.google.android.gms:play-services-location:19.0.0] C:\Users\Dean Wheatley\.gradle\caches\8.11.1\transforms\e7cbde54ad547b82b2f871a970f72558\transformed\play-services-location-19.0.0\AndroidManifest.xml:7:5-20
@@ -100,14 +99,16 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\De
 		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:39:9-40
 	android:manageSpaceActivity
 		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:41:9-105
+	android:roundIcon
+		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:38:9-54
 	android:icon
-		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:38:9-43
+		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:37:9-43
 	android:allowBackup
-		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:37:9-35
+		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:36:9-35
 	android:theme
 		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:44:9-68
 	android:name
-		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:36:9-35
+		ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:35:9-35
 meta-data#asset_statements
 ADDED from C:\Projects\playshares-android\app\src\main\AndroidManifest.xml:46:9-48:58
 	android:resource
