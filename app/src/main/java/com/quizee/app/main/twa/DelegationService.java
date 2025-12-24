@@ -1,4 +1,4 @@
-package com.amplifyapp.d1608aesdqhszw.main.twa;
+package com.quizee.app.main.twa;
 
 
 import com.google.androidbrowserhelper.playbilling.digitalgoods.DigitalGoodsRequestHandler;
@@ -15,4 +15,3 @@ public class DelegationService extends
         
     }
 }
-

@@ -14,5 +14,15 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Quizee Brand Colors -->
+    <color name="quizee_primary">#6366F1</color>
+    <color name="quizee_primary_dark">#4338CA</color>
+    <color name="quizee_secondary">#8B5CF6</color>
+    <color name="quizee_accent">#10B981</color>
+    <color name="quizee_background">#F8FAFC</color>
+    <color name="quizee_surface">#FFFFFF</color>
+    <color name="quizee_error">#EF4444</color>
+    
+    <!-- Legacy -->
     <color name="shortcut_background">#F5F5F5</color>
 </resources>

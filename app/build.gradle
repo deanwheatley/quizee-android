@@ -21,18 +21,18 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'com.amplifyapp.d1608aesdqhszw.main.twa',
-    hostName: 'main.d1608aesdqhszw.amplifyapp.com', // The domain being opened in the TWA.
+    applicationId: 'com.quizee.app.main.twa',
+    hostName: 'quizee.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Playshares', // The application name.
-    launcherName: 'Playshares', // The name shown on the Android Launcher.
-    themeColor: '#0B0F14', // The color used for the status bar.
-    themeColorDark: '#000000', // The color used for the dark status bar.
-    navigationColor: '#000000', // The color used for the navigation bar.
-    navigationColorDark: '#000000', // The color used for the dark navbar.
-    navigationDividerColor: '#000000', // The navbar divider color.
-    navigationDividerColorDark: '#000000', // The dark navbar divider color.
-    backgroundColor: '#0B0F14', // The color used for the splash screen background.
+    name: 'Quizee', // The application name.
+    launcherName: 'Quizee', // The name shown on the Android Launcher.
+    themeColor: '#6366F1', // The color used for the status bar - Indigo for quiz theme.
+    themeColorDark: '#4338CA', // The color used for the dark status bar.
+    navigationColor: '#6366F1', // The color used for the navigation bar.
+    navigationColorDark: '#4338CA', // The color used for the dark navbar.
+    navigationDividerColor: '#E5E7EB', // The navbar divider color.
+    navigationDividerColorDark: '#374151', // The dark navbar divider color.
+    backgroundColor: '#F8FAFC', // The color used for the splash screen background - Light gray.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
     // - name: String that will show up in the shortcut.
@@ -52,7 +52,7 @@ def twaManifest = [
 
 android {
     compileSdkVersion 36
-    namespace "com.amplifyapp.d1608aesdqhszw.main.twa"
+    namespace "com.quizee.app.main.twa"
     signingConfigs {
         // Release signing config uses metadata from gradle.properties (non-sensitive) and runtime-provided passwords.
         release {
@@ -65,7 +65,7 @@ android {
         }
     }
     defaultConfig {
-        applicationId "com.amplifyapp.d1608aesdqhszw.main.twa"
+        applicationId "com.quizee.app.main.twa"
         minSdkVersion 21
         targetSdkVersion 35
     versionCode 3
@@ -137,24 +137,24 @@ android {
     productFlavors {
         production {
             dimension "environment"
-            applicationId "com.amplifyapp.d1608aesdqhszw.main.twa"
-            resValue "string", "appName", "Playshares"
-            resValue "string", "launcherName", "Playshares"
-            resValue "string", "hostName", "main.d1608aesdqhszw.amplifyapp.com"
-            resValue "string", "launchUrl", "https://main.d1608aesdqhszw.amplifyapp.com/"
-            resValue "string", "webManifestUrl", "https://main.d1608aesdqhszw.amplifyapp.com/manifest.webmanifest"
-            resValue "string", "fullScopeUrl", "https://main.d1608aesdqhszw.amplifyapp.com/"
-            resValue "color", "ic_launcher_bg", "#0B0F14"
+            applicationId "com.quizee.app.main.twa"
+            resValue "string", "appName", "Quizee"
+            resValue "string", "launcherName", "Quizee"
+            resValue "string", "hostName", "quizee.app"
+            resValue "string", "launchUrl", "https://quizee.app/"
+            resValue "string", "webManifestUrl", "https://quizee.app/manifest.webmanifest"
+            resValue "string", "fullScopeUrl", "https://quizee.app/"
+            resValue "color", "ic_launcher_bg", "#6366F1"
         }
         integration {
             dimension "environment"
-            applicationId "com.amplifyapp.d1608aesdqhszw.integration"
-            resValue "string", "appName", "Int Playshares"
-            resValue "string", "launcherName", "Int Playshares"
-            resValue "string", "hostName", "integration.d1608aesdqhszw.amplifyapp.com"
-            resValue "string", "launchUrl", "https://integration.d1608aesdqhszw.amplifyapp.com/"
-            resValue "string", "webManifestUrl", "https://integration.d1608aesdqhszw.amplifyapp.com/manifest.webmanifest"
-            resValue "string", "fullScopeUrl", "https://integration.d1608aesdqhszw.amplifyapp.com/"
+            applicationId "com.quizee.app.integration"
+            resValue "string", "appName", "Int Quizee"
+            resValue "string", "launcherName", "Int Quizee"
+            resValue "string", "hostName", "integration.quizee.app"
+            resValue "string", "launchUrl", "https://integration.quizee.app/"
+            resValue "string", "webManifestUrl", "https://integration.quizee.app/manifest.webmanifest"
+            resValue "string", "fullScopeUrl", "https://integration.quizee.app/"
             resValue "color", "ic_launcher_bg", "#DC2626"
         }
     }

@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name">Playshares</string>
+  <string name="app_name">Quizee</string>
   
 
   <!--
@@ -29,7 +29,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://main.d1608aesdqhszw.amplifyapp.com\"
+            \"site\": \"https://quizee.app\"
         }
     }]
     
