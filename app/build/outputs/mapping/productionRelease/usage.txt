@@ -7785,15 +7785,6 @@ androidx.viewpager.widget.ViewPager$SavedState
 androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
-com.amplifyapp.d1608aesdqhszw.main.twa.R$bool
-com.amplifyapp.d1608aesdqhszw.main.twa.R$color
-com.amplifyapp.d1608aesdqhszw.main.twa.R$drawable
-com.amplifyapp.d1608aesdqhszw.main.twa.R$integer
-com.amplifyapp.d1608aesdqhszw.main.twa.R$mipmap
-com.amplifyapp.d1608aesdqhszw.main.twa.R$raw
-com.amplifyapp.d1608aesdqhszw.main.twa.R$string
-com.amplifyapp.d1608aesdqhszw.main.twa.R$xml
-com.amplifyapp.d1608aesdqhszw.main.twa.R
 com.android.billingclient.BuildConfig
 com.android.billingclient.R$raw
 com.android.billingclient.R$xml
@@ -13039,6 +13030,24 @@ com.google.j2objc.annotations.WeakOuter
 com.google.thirdparty.publicsuffix.PublicSuffixPatterns
 com.google.thirdparty.publicsuffix.PublicSuffixType
 com.google.thirdparty.publicsuffix.TrieParser
+com.quizee.app.main.twa.R$array:
+    private void <init>()
+com.quizee.app.main.twa.R$bool
+com.quizee.app.main.twa.R$color
+com.quizee.app.main.twa.R$drawable
+com.quizee.app.main.twa.R$id:
+    public static int splash_logo
+    private void <init>()
+com.quizee.app.main.twa.R$integer
+com.quizee.app.main.twa.R$layout:
+    private void <init>()
+com.quizee.app.main.twa.R$mipmap
+com.quizee.app.main.twa.R$raw
+com.quizee.app.main.twa.R$string
+com.quizee.app.main.twa.R$xml
+com.quizee.app.main.twa.R
+com.quizee.app.main.twa.SplashActivity:
+    private static final int SPLASH_DELAY_MS
 javax.inject.Inject
 javax.inject.Named
 javax.inject.Qualifier

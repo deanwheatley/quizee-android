@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array loading_messages
 bool enableNotification
 bool enableSiteSettingsShortcut
 color backgroundColor
@@ -10,6 +11,13 @@ color navigationColor
 color navigationColorDark
 color navigationDividerColor
 color navigationDividerColorDark
+color quizee_accent
+color quizee_background
+color quizee_error
+color quizee_primary
+color quizee_primary_dark
+color quizee_secondary
+color quizee_surface
 color shortcut_background
 drawable ic_launcher_background
 drawable ic_launcher_background_gradient
@@ -24,7 +32,10 @@ drawable ic_logo_glow
 drawable ic_notification_icon
 drawable shortcut_legacy_background
 drawable splash
+id loading_message
+id splash_logo
 integer splashScreenFadeOutDuration
+layout activity_splash
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw web_app_manifest

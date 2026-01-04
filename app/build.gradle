@@ -22,7 +22,7 @@ plugins {
 
 def twaManifest = [
     applicationId: 'com.quizee.app.main.twa',
-    hostName: 'quizee.app', // The domain being opened in the TWA.
+    hostName: 'quizee.fun', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Quizee', // The application name.
     launcherName: 'Quizee', // The name shown on the Android Launcher.
@@ -46,7 +46,7 @@ def twaManifest = [
     // The fallback strategy for when Trusted Web Activity is not available. Possible values are
     // 'customtabs' and 'webview'.
     fallbackType: 'customtabs',
-    enableSiteSettingsShortcut: 'true',
+    enableSiteSettingsShortcut: 'false',
     orientation: 'default',
 ]
 
@@ -140,10 +140,10 @@ android {
             applicationId "com.quizee.app.main.twa"
             resValue "string", "appName", "Quizee"
             resValue "string", "launcherName", "Quizee"
-            resValue "string", "hostName", "quizee.app"
-            resValue "string", "launchUrl", "https://quizee.app/"
-            resValue "string", "webManifestUrl", "https://quizee.app/manifest.webmanifest"
-            resValue "string", "fullScopeUrl", "https://quizee.app/"
+            resValue "string", "hostName", "quizee.fun"
+            resValue "string", "launchUrl", "https://quizee.fun/"
+            resValue "string", "webManifestUrl", "https://quizee.fun/manifest.webmanifest"
+            resValue "string", "fullScopeUrl", "https://quizee.fun/"
             resValue "color", "ic_launcher_bg", "#6366F1"
         }
         integration {
@@ -151,10 +151,10 @@ android {
             applicationId "com.quizee.app.integration"
             resValue "string", "appName", "Int Quizee"
             resValue "string", "launcherName", "Int Quizee"
-            resValue "string", "hostName", "integration.quizee.app"
-            resValue "string", "launchUrl", "https://integration.quizee.app/"
-            resValue "string", "webManifestUrl", "https://integration.quizee.app/manifest.webmanifest"
-            resValue "string", "fullScopeUrl", "https://integration.quizee.app/"
+            resValue "string", "hostName", "quizee.fun"
+            resValue "string", "launchUrl", "https://quizee.fun/"
+            resValue "string", "webManifestUrl", "https://quizee.fun/manifest.webmanifest"
+            resValue "string", "fullScopeUrl", "https://quizee.fun/"
             resValue "color", "ic_launcher_bg", "#DC2626"
         }
     }
@@ -222,4 +222,5 @@ dependencies {
     
         implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.6.2'
     
+    testImplementation 'junit:junit:4.13.2'
 }

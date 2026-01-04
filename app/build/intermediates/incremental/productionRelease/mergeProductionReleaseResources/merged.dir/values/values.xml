@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="loading_messages">
+    <item>Getting your quiz ready…</item>
+    <item>Loading brain teasers…</item>
+    <item>Preparing fun questions…</item>
+    <item>Warming up the quiz engine…</item>
+    <item>Almost there…</item>
+    <item>Loading awesome quizzes…</item>
+    <item>Get ready to test your knowledge!</item>
+    <item>Shuffling the questions…</item>
+    <item>Loading your challenge…</item>
+    <item>Quiz time is coming!</item>
+  </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -8,7 +20,7 @@
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="enableNotification">true</bool>
-    <bool name="enableSiteSettingsShortcut">true</bool>
+    <bool name="enableSiteSettingsShortcut">false</bool>
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -18,7 +30,7 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
-    <color name="backgroundColor">#0B0F14</color>
+    <color name="backgroundColor">#F8FAFC</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -37,8 +49,8 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="call_notification_answer_color">#1d873b</color>
     <color name="call_notification_decline_color">#d93025</color>
-    <color name="colorPrimary">#0B0F14</color>
-    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#6366F1</color>
+    <color name="colorPrimaryDark">#4338CA</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -57,7 +69,7 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="ic_launcher_bg">#0B0F14</color>
+    <color name="ic_launcher_bg">#6366F1</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -70,10 +82,10 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <color name="navigationColor">#000000</color>
-    <color name="navigationColorDark">#000000</color>
-    <color name="navigationDividerColor">#000000</color>
-    <color name="navigationDividerColorDark">#000000</color>
+    <color name="navigationColor">#6366F1</color>
+    <color name="navigationColorDark">#4338CA</color>
+    <color name="navigationDividerColor">#E5E7EB</color>
+    <color name="navigationDividerColorDark">#374151</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -84,6 +96,13 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="quizee_accent">#10B981</color>
+    <color name="quizee_background">#F8FAFC</color>
+    <color name="quizee_error">#EF4444</color>
+    <color name="quizee_primary">#6366F1</color>
+    <color name="quizee_primary_dark">#4338CA</color>
+    <color name="quizee_secondary">#8B5CF6</color>
+    <color name="quizee_surface">#FFFFFF</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -324,14 +343,14 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="appName" translatable="false">Playshares</string>
-    <string name="app_name">Playshares</string>
+    <string name="appName" translatable="false">Quizee</string>
+    <string name="app_name">Quizee</string>
     <string name="assetStatements">
     [{
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://main.d1608aesdqhszw.amplifyapp.com\"
+            \"site\": \"https://quizee.fun\"
         }
     }]
     
@@ -366,20 +385,20 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="fullScopeUrl" translatable="false">https://main.d1608aesdqhszw.amplifyapp.com/</string>
+    <string name="fullScopeUrl" translatable="false">https://quizee.fun/</string>
     <string name="generatorApp" translatable="false">bubblewrap-cli</string>
-    <string name="hostName" translatable="false">main.d1608aesdqhszw.amplifyapp.com</string>
-    <string name="launchUrl" translatable="false">https://main.d1608aesdqhszw.amplifyapp.com/</string>
-    <string name="launcherName" translatable="false">Playshares</string>
+    <string name="hostName" translatable="false">quizee.fun</string>
+    <string name="launchUrl" translatable="false">https://quizee.fun/</string>
+    <string name="launcherName" translatable="false">Quizee</string>
     <string name="manage_space_no_data_toast">This app holds no browsing data.</string>
     <string name="manage_space_not_supported_toast">This app\'s data is stored in %1$s.</string>
     <string name="no_provider_toast">Please install Chrome Stable 72 or later.</string>
     <string name="orientation" translatable="false">default</string>
-    <string name="providerAuthority" translatable="false">com.amplifyapp.d1608aesdqhszw.main.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">com.quizee.app.main.twa.fileprovider</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="update_chrome_toast">Please update to Chrome Stable 72 or later.</string>
-    <string name="webManifestUrl" translatable="false">https://main.d1608aesdqhszw.amplifyapp.com/manifest.webmanifest</string>
+    <string name="webManifestUrl" translatable="false">https://quizee.fun/manifest.webmanifest</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

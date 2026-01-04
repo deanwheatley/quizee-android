@@ -17,6 +17,19 @@
 <resources>
   <string name="app_name">Quizee</string>
   
+  <!-- Loading messages for splash screen -->
+  <string-array name="loading_messages">
+    <item>Getting your quiz ready…</item>
+    <item>Loading brain teasers…</item>
+    <item>Preparing fun questions…</item>
+    <item>Warming up the quiz engine…</item>
+    <item>Almost there…</item>
+    <item>Loading awesome quizzes…</item>
+    <item>Get ready to test your knowledge!</item>
+    <item>Shuffling the questions…</item>
+    <item>Loading your challenge…</item>
+    <item>Quiz time is coming!</item>
+  </string-array>
 
   <!--
     This variable below expresses the relationship between the app and the site,
@@ -29,7 +42,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://quizee.app\"
+            \"site\": \"https://quizee.fun\"
         }
     }]
     

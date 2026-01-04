@@ -1,36 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="loading_messages">
+    <item>Getting your quiz ready…</item>
+    <item>Loading brain teasers…</item>
+    <item>Preparing fun questions…</item>
+    <item>Warming up the quiz engine…</item>
+    <item>Almost there…</item>
+    <item>Loading awesome quizzes…</item>
+    <item>Get ready to test your knowledge!</item>
+    <item>Shuffling the questions…</item>
+    <item>Loading your challenge…</item>
+    <item>Quiz time is coming!</item>
+  </string-array>
     <bool name="enableNotification">true</bool>
-    <bool name="enableSiteSettingsShortcut">true</bool>
-    <color name="backgroundColor">#0B0F14</color>
-    <color name="colorPrimary">#0B0F14</color>
-    <color name="colorPrimaryDark">#000000</color>
+    <bool name="enableSiteSettingsShortcut">false</bool>
+    <color name="backgroundColor">#F8FAFC</color>
+    <color name="colorPrimary">#6366F1</color>
+    <color name="colorPrimaryDark">#4338CA</color>
     <color name="ic_launcher_bg">#DC2626</color>
-    <color name="navigationColor">#000000</color>
-    <color name="navigationColorDark">#000000</color>
-    <color name="navigationDividerColor">#000000</color>
-    <color name="navigationDividerColorDark">#000000</color>
+    <color name="navigationColor">#6366F1</color>
+    <color name="navigationColorDark">#4338CA</color>
+    <color name="navigationDividerColor">#E5E7EB</color>
+    <color name="navigationDividerColorDark">#374151</color>
+    <color name="quizee_accent">#10B981</color>
+    <color name="quizee_background">#F8FAFC</color>
+    <color name="quizee_error">#EF4444</color>
+    <color name="quizee_primary">#6366F1</color>
+    <color name="quizee_primary_dark">#4338CA</color>
+    <color name="quizee_secondary">#8B5CF6</color>
+    <color name="quizee_surface">#FFFFFF</color>
     <color name="shortcut_background">#F5F5F5</color>
     <integer name="splashScreenFadeOutDuration">300</integer>
-    <string name="appName" translatable="false">Int Playshares</string>
-    <string name="app_name">Int_Playshares</string>
+    <string name="appName" translatable="false">Int Quizee</string>
+    <string name="app_name">Int_Quizee</string>
     <string name="assetStatements">
     [{
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://main.d1608aesdqhszw.amplifyapp.com\"
+            \"site\": \"https://quizee.fun\"
         }
     }]
     
   </string>
     <string name="fallbackType" translatable="false">customtabs</string>
-    <string name="fullScopeUrl" translatable="false">https://integration.d1608aesdqhszw.amplifyapp.com/</string>
+    <string name="fullScopeUrl" translatable="false">https://quizee.fun/</string>
     <string name="generatorApp" translatable="false">bubblewrap-cli</string>
-    <string name="hostName" translatable="false">integration.d1608aesdqhszw.amplifyapp.com</string>
-    <string name="launchUrl" translatable="false">https://integration.d1608aesdqhszw.amplifyapp.com/</string>
-    <string name="launcherName" translatable="false">Int Playshares</string>
+    <string name="hostName" translatable="false">quizee.fun</string>
+    <string name="launchUrl" translatable="false">https://quizee.fun/</string>
+    <string name="launcherName" translatable="false">Int Quizee</string>
     <string name="orientation" translatable="false">default</string>
-    <string name="providerAuthority" translatable="false">com.amplifyapp.d1608aesdqhszw.main.twa.fileprovider</string>
-    <string name="webManifestUrl" translatable="false">https://integration.d1608aesdqhszw.amplifyapp.com/manifest.webmanifest</string>
+    <string name="providerAuthority" translatable="false">com.quizee.app.main.twa.fileprovider</string>
+    <string name="webManifestUrl" translatable="false">https://quizee.fun/manifest.webmanifest</string>
 </resources>

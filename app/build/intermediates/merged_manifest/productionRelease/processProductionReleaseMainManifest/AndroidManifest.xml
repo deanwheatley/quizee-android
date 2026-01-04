@@ -22,7 +22,7 @@
      the abbreviated format.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amplifyapp.d1608aesdqhszw.main.twa"
+    package="com.quizee.app.main.twa"
     android:versionCode="3"
     android:versionName="3" >
 
@@ -51,16 +51,16 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <permission
-        android:name="com.amplifyapp.d1608aesdqhszw.main.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.quizee.app.main.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.amplifyapp.d1608aesdqhszw.main.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="com.quizee.app.main.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.amplifyapp.d1608aesdqhszw.main.twa.Application"
+        android:name="com.quizee.app.main.twa.Application"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="true"
@@ -86,7 +86,18 @@
                 android:value="@string/launchUrl" />
         </activity>
         <activity
-            android:name="com.amplifyapp.d1608aesdqhszw.main.twa.LauncherActivity"
+            android:name="com.quizee.app.main.twa.SplashActivity"
+            android:exported="true"
+            android:label="@string/launcherName"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quizee.app.main.twa.LauncherActivity"
             android:alwaysRetainTaskState="true"
             android:exported="true"
             android:label="@string/launcherName" >
@@ -133,11 +144,6 @@
                 android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
                 android:value="@string/orientation" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
             <intent-filter android:autoVerify="true" >
                 <action android:name="android.intent.action.VIEW" />
 
@@ -165,7 +171,7 @@
         </provider>
 
         <service
-            android:name="com.amplifyapp.d1608aesdqhszw.main.twa.DelegationService"
+            android:name="com.quizee.app.main.twa.DelegationService"
             android:enabled="@bool/enableNotification"
             android:exported="@bool/enableNotification" >
             <meta-data
@@ -228,7 +234,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.amplifyapp.d1608aesdqhszw.main.twa.androidx-startup"
+            android:authorities="com.quizee.app.main.twa.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

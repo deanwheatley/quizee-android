@@ -1,6 +1,6 @@
 {
   "packageId": "com.quizee.app.main.twa",
-  "host": "quizee.app",
+  "host": "quizee.fun",
   "name": "Quizee",
   "launcherName": "Quizee",
   "display": "standalone",
@@ -13,7 +13,7 @@
   "backgroundColor": "#F8FAFC",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "https://quizee.app/icons/quizee-512.png",
+  "iconUrl": "https://quizee.fun/icons/quizee-512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "C:\\Projects\\quizee\\android.keystore",
@@ -23,7 +23,7 @@
   "appVersionCode": 2,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://quizee.app/manifest.webmanifest",
+  "webManifestUrl": "https://quizee.fun/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {
     "playBilling": {
@@ -36,7 +36,7 @@
   "enableSiteSettingsShortcut": true,
   "isChromeOSOnly": false,
   "isMetaQuest": false,
-  "fullScopeUrl": "https://quizee.app/",
+  "fullScopeUrl": "https://quizee.fun/",
   "minSdkVersion": 21,
   "orientation": "default",
   "fingerprints": [],

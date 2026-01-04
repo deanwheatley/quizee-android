@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.amplifyapp.d1608aesdqhszw.main.twa",
+  "applicationId": "com.quizee.app.main.twa",
   "variantName": "productionRelease",
   "elements": []
 }

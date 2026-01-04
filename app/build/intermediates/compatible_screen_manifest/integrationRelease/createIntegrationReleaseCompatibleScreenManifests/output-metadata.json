@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.amplifyapp.d1608aesdqhszw.integration",
+  "applicationId": "com.quizee.app.integration",
   "variantName": "integrationRelease",
   "elements": []
 }

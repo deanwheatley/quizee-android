@@ -23,6 +23,9 @@
     <color name="quizee_surface">#FFFFFF</color>
     <color name="quizee_error">#EF4444</color>
     
+    <!-- Launcher Icon Background -->
+    <color name="ic_launcher_bg">#6366F1</color>
+    
     <!-- Legacy -->
     <color name="shortcut_background">#F5F5F5</color>
 </resources>

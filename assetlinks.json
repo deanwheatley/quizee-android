@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.quizee.app.main.twa",
+    "sha256_cert_fingerprints": ["66:0F:77:DE:AB:91:23:26:A5:19:2F:C2:45:96:0B:6E:BE:5B:22:9D:35:8A:38:BA:82:B0:0A:4B:F3:FA:F7:A5"]
+  }
+}]

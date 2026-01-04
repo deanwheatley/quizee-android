@@ -4,7 +4,7 @@
     "type": "LINKED_RESOURCES_BINARY_FORMAT",
     "kind": "Directory"
   },
-  "applicationId": "com.amplifyapp.d1608aesdqhszw.integration",
+  "applicationId": "com.quizee.app.integration",
   "variantName": "integrationRelease",
   "elements": [
     {

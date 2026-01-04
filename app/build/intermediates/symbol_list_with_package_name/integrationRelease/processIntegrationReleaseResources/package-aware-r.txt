@@ -1,4 +1,4 @@
-com.amplifyapp.d1608aesdqhszw.main.twa
+com.quizee.app.main.twa
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -30,6 +30,7 @@ animator fragment_fade_enter
 animator fragment_fade_exit
 animator fragment_open_enter
 animator fragment_open_exit
+array loading_messages
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -427,6 +428,13 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color quizee_accent
+color quizee_background
+color quizee_error
+color quizee_primary
+color quizee_primary_dark
+color quizee_secondary
+color quizee_surface
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -819,6 +827,7 @@ id line1
 id line3
 id listMode
 id list_item
+id loading_message
 id message
 id middle
 id multiply
@@ -858,6 +867,7 @@ id showHome
 id showTitle
 id spacer
 id special_effects_controller_view_tag
+id splash_logo
 id split_action_bar
 id src_atop
 id src_in
@@ -943,6 +953,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
